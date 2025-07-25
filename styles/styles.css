@@ -1,0 +1,232 @@
+/* shared styles */
+.display-flex{
+    display: flex;
+    align-items: flex-end;
+   
+
+}
+/* color */
+.nav-link-gray{
+    color: gray;
+}
+.bg-light{
+    background-color: ghostwhite; 
+    
+    margin-left: 124px;
+    margin-top: 50px;
+    margin-right: 176px;
+}
+/* main menegment*/
+
+.main{
+    max-width: 1212px;
+    margin: 0px auto;
+}
+.bg-flower{
+      background-color: ghostwhite; 
+    
+    margin-left: 124px;
+    margin-top: 50px;
+    margin-right: 176px;
+    
+}
+
+.main > section{
+    margin-top: 130;
+}
+
+.flower-description{
+   font-size: 2.8rem;
+}
+.always{
+    color: black;
+}
+.flower-line{
+    color: coral;
+}
+
+/* our plant section */
+.margin-area{
+    margin-top: 115px;
+    gap: 131px;
+}
+.plant{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
+.our-plants{
+   font-size: 1.5rem;
+}
+.color{
+    color: coral;
+}
+.gap-gap{
+    gap: 10px;
+}
+.plant-our{
+    align-items: center;
+    flex-direction: column;
+
+}
+.pera-grap{
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-link-gray{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* our plant image card section*/
+.plant-image-card{
+    border: 10px;
+    
+}
+.conteiner{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px 10px;
+ width: 100%;
+ text-align: center;
+}
+.conteiner-con{
+    margin-top: 50px;
+}
+.Plants-text{
+    font-size: 20px;
+
+}
+.Plants-text-usd{
+    font-size: 24px;
+}
+
+
+/*.plant-image-card{
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.card-spen{
+    font-size: 28px;
+}*/
+
+
+
+
+/* button size-color*/
+.button-justify{
+   width: 100%; 
+   background-color:chocolate;
+   color: white;
+   padding: 10px 15px;
+   font-size: 1.2rem;
+   border: none;
+   cursor: pointer;
+}
+/* plant lover */
+
+.flowers-title-lover{
+    align-items:normal
+}
+
+.flowers-title-lover{
+    margin-top: 108px;
+    width: 100%;
+    margin-left: 124px;
+    margin-top: 50px;
+margin-right: 140px;
+}
+.flower-image-lover{
+    margin-left: 100px;
+}
+.flower-content{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+/* letest-deals*/
+.letest-deals{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* header sztyles */
+
+
+
+/* navber styles */
+
+.navber{
+    justify-content: space-between;
+    /*margin: 0 auto;*/
+    
+    /*width: 80%;*/
+    /*height: 80%;*/
+}
+.nav-item{
+    list-style: none;
+    margin: 30px;
+  
+}
+.nav-link-gray{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.nav-links{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:576px){
+    .navber, .nav-links{
+
+    }
+    .nav-link-gray{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+   .hero-flower{
+    display: flex;
+   }
+}
